@@ -3,7 +3,7 @@ import codecs
 from json import load, dump
 from dateutil.parser import parse
 
-#--nolog
+#Use --nolog to supress scrapy logging output
 Popen('scrapy crawl wiki_logs_spider -t json -o output/wiki_logs.json'.split()).wait()
 
 with codecs.open('output/wiki_logs.json', 'r+', encoding='utf-8') as jsonFile:
