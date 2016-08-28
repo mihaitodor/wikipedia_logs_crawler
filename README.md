@@ -3,6 +3,7 @@ Dumps the contents of the [Wikipedia Server Admin Log](https://wikitech.wikimedi
 
 ## Usage
 `python run.py`
+
 The output will be generated in output/wiki_logs.json
 
 ## TODO
