@@ -11,4 +11,3 @@ import scrapy
 class WikiLogsItem(scrapy.Item):
     date = scrapy.Field()
     items = scrapy.Field()
-    pass
