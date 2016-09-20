@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from subprocess import Popen
 import codecs
 from json import load, dump
